@@ -1,6 +1,6 @@
 # PR_2324
 ## Descripcion
-
+Para que funcione hay copiar la carpeta Lib que esta dentro de Proyecto_PRR en la carpeta "ABB\RobotStudio 2023\ABB Library". 
 
 ## Contenido de la publicacion
 
