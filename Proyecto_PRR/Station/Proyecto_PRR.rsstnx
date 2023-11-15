@@ -32,6 +32,8 @@
       <SimulatedObjects>
         <ObjectRef ID="2371" />
         <ObjectRef ID="2372" />
+        <ObjectRef ID="2482" />
+        <ObjectRef ID="2485" />
       </SimulatedObjects>
       <EventTable ID="4" />
       <ConnectedState Value="" />
@@ -3879,6 +3881,11 @@
         <ObjectRef ID="2471" />
         <ObjectRef ID="2473" />
         <ObjectRef ID="2475" />
+        <ObjectRef ID="2477" />
+        <ObjectRef ID="2479" />
+        <ObjectRef ID="2481" />
+        <ObjectRef ID="2482" />
+        <ObjectRef ID="2485" />
       </Instances>
       <Transform>
         <RowX X="1" Y="0" Z="0" W="0" />
@@ -3931,6 +3938,11 @@
         <ObjectRef ID="2470" />
         <ObjectRef ID="2472" />
         <ObjectRef ID="2474" />
+        <ObjectRef ID="2476" />
+        <ObjectRef ID="2478" />
+        <ObjectRef ID="2480" />
+        <ObjectRef ID="2484" />
+        <ObjectRef ID="2487" />
       </Definitions>
       <Textures />
     </AssemblyRoot>
@@ -9599,13 +9611,16 @@
         <RowX X="0" Y="0" Z="-1" W="0" />
         <RowY X="1" Y="0" Z="0" W="0" />
         <RowZ X="0" Y="-1" Z="0" W="0" />
-        <RowT X="0.0794055967974122" Y="0.544548181484678" Z="0.824582974598828" W="1" />
+        <RowT X="0.0794055967974122" Y="0.57367344942047" Z="0.824582974598828" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -9627,13 +9642,16 @@
         <RowX X="0" Y="0" Z="1" W="0" />
         <RowY X="0" Y="1" Z="0" W="0" />
         <RowZ X="-1" Y="0" Z="0" W="0" />
-        <RowT X="0.142349219459367" Y="0.481514741763731" Z="0.803506131143846" W="1" />
+        <RowT X="0.142349219459367" Y="0.510640009699523" Z="0.803506131143846" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -9655,7 +9673,38 @@
         <RowX X="1" Y="0" Z="0" W="0" />
         <RowY X="0" Y="1" Z="0" W="0" />
         <RowZ X="0" Y="0" Z="1" W="0" />
-        <RowT X="-0.259073739655457" Y="-0.190121334523926" Z="-0.168550453474433" W="1" />
+        <RowT X="-0.223789164043188" Y="-0.227054110259454" Z="-0.225118121311583" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <PartDef ID="2476" Name="" Parent="1183">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="2d11499020cb471d8c42d1daee1117c1" StreamChangeRef="5035a0de1ab54bda9998cfeae9df6d3b" />
+      <BoundingBox>
+        <Min X="0.0169028072357178" Y="1.66877973824739E-05" Z="0.0190338115692139" />
+        <Max X="0.0331028060913086" Y="0.0405166893005371" Z="0.0480338096618652" />
+      </BoundingBox>
+    </PartDef>
+    <ComponentInstance ID="2477" Name="Assem sensor - Mounting Bracket-1_2" Parent="1183" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="2476" />
+      <Transform>
+        <RowX X="0" Y="1" Z="0" W="0" />
+        <RowY X="-1" Y="0" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0.015069" Y="0.524918688112978" Z="0.56883728142867" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -9669,14 +9718,370 @@
         <ControlPoints />
       </PhysicsSurfaceVelocity>
     </ComponentInstance>
+    <PartDef ID="2478" Name="" Parent="1183">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="44f548352fff48c28e5d288b2adedac4" StreamChangeRef="d9cc0dffb52241029293ac8cce0134d5" />
+      <BoundingBox>
+        <Min X="0.0045028076171875" Y="0.0037175452709198" Z="0.0211818523406982" />
+        <Max X="0.0169028072357178" Y="0.0405044097900391" Z="0.0524975357055664" />
+      </BoundingBox>
+    </PartDef>
+    <ComponentInstance ID="2479" Name="Assem sensor - Diffuse-reflective sensor by omrom Model E3NC-LH02-1_2" Parent="1183" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="2478" />
+      <Transform>
+        <RowX X="0" Y="1" Z="0" W="0" />
+        <RowY X="-1" Y="0" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0.0145034948997294" Y="0.524667230220473" Z="0.56643079422997" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <PartDef ID="2480" Name="" Parent="1183">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="92eaa91102a243a4bf15a3389a58ba49" StreamChangeRef="9245384b9419448eaec2bc0a88ae4918" />
+      <BoundingBox>
+        <Min X="0.0169028072357178" Y="1.66877973824739E-05" Z="0.0190338115692139" />
+        <Max X="0.0331028060913086" Y="0.0405166893005371" Z="0.0480338096618652" />
+      </BoundingBox>
+    </PartDef>
+    <ComponentInstance ID="2481" Name="Assem sensor - Mounting Bracket-1_3" Parent="1183" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="2480" />
+      <Transform>
+        <RowX X="0" Y="0" Z="-1" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="1" Y="0" Z="0" W="0" />
+        <RowT X="-0.00316305249823618" Y="0.575531387790062" Z="0.542840859963671" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <SmartComponentInstance ID="2482" Name="LineSensor_2" Parent="1183" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0" IsSimable="true" Protected="false">
+      <Attributes>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Start">
+          <Value>
+            <String Value="[0.090166 0.535205 0.813908]" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;End">
+          <Value>
+            <String Value="[-0.088657 0.535205 0.813908]" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Length">
+          <Value>
+            <Double Value="0.178823" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Radius">
+          <Value>
+            <Double Value="0" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Tag">
+          <Value>
+            <ObjectRef ID="-1" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
+          <Value>
+            <ObjectRef ID="-1" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
+          <Value>
+            <String Value="[0 0 0]" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerX">
+          <Value>
+            <Double Value="657.5" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerY">
+          <Value>
+            <Double Value="20" />
+          </Value>
+        </Attribute>
+      </Attributes>
+      <UniqueId Value="{aad37a57-6080-4e02-b522-cf1ffbd3742b}" />
+      <Definition ID="5" DocID="6" />
+      <ChildInstances>
+        <ObjectRef ID="2483" />
+      </ChildInstances>
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="SmartComponent" />
+      <ClipPlane ID="-1" />
+      <Properties>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Start" />
+          <Type Value="ABB.Robotics.Math.Vector3" />
+          <Attributes Value="Quantity=Length|Reference=Local|AutoApply=True" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="End" />
+          <Type Value="ABB.Robotics.Math.Vector3" />
+          <Attributes Value="Quantity=Length|Reference=Local|AutoApply=True" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Length" />
+          <Type Value="System.Double" />
+          <Attributes Value="Quantity=Length|MinValue=0|AutoApply=True|NoDefaultInitialization=True|CustomValidation=True" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Radius" />
+          <Type Value="System.Double" />
+          <Attributes Value="Quantity=Length|MinValue=0|MaxValue=0.1|Slider=True|AutoApply=True" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Tag" />
+          <Type Value="ABB.Robotics.RobotStudio.Stations.ProjectObjectTag" />
+          <Attributes Value="AutoApply=True" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="true" UIVisible="true">
+          <Id Value="SensedPart" />
+          <Type Value="ABB.Robotics.RobotStudio.Stations.Part" />
+          <Attributes Value="" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="true" UIVisible="true">
+          <Id Value="SensedPoint" />
+          <Type Value="ABB.Robotics.Math.Vector3" />
+          <Attributes Value="Quantity=Length" />
+        </Element>
+      </Properties>
+      <SignalDefinitions>
+        <Element type="TIOSignalDef" SignalType="0" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="Active" />
+        </Element>
+        <Element type="TIOSignalDef" SignalType="1" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="SensorOut" />
+        </Element>
+      </SignalDefinitions>
+      <SignalValues>
+        <Element Key="Active">
+          <Value>
+            <Integer Value="1" />
+          </Value>
+        </Element>
+        <Element Key="SensorOut">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+      </SignalValues>
+      <RoleObject ID="-1" />
+    </SmartComponentInstance>
+    <ComponentInstance ID="2483" Name="_sensorPart_" Parent="2482" UIVisible="false" PickingEnabled="false" Detectable="false" PhysicsMotionControl="0">
+      <Definition ID="2484" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <PartDef ID="2484" Name="" Parent="1183">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="f235d5c3bb2e41d2bbc2e0b056da574b" StreamChangeRef="b39a26ee95d84297a897332497eb4fe5" />
+      <BoundingBox>
+        <Min X="-0.0886569976806641" Y="0.535205017089844" Z="0.813908020019531" />
+        <Max X="0.0901660003662109" Y="0.535205017089844" Z="0.813908020019531" />
+      </BoundingBox>
+    </PartDef>
+    <SmartComponentInstance ID="2485" Name="LineSensor_3" Parent="1183" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0" IsSimable="true" Protected="false">
+      <Attributes>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Start">
+          <Value>
+            <String Value="[-0.009996 0.535205 0.618635]" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;End">
+          <Value>
+            <String Value="[-0.009996 0.535205 0.81]" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Length">
+          <Value>
+            <Double Value="0.191365" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Radius">
+          <Value>
+            <Double Value="0" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Tag">
+          <Value>
+            <ObjectRef ID="-1" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
+          <Value>
+            <ObjectRef ID="-1" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
+          <Value>
+            <String Value="[0 0 0]" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerX">
+          <Value>
+            <Double Value="1295" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerY">
+          <Value>
+            <Double Value="20" />
+          </Value>
+        </Attribute>
+      </Attributes>
+      <UniqueId Value="{0de066fc-6be1-4707-ae14-fe806bc1dd89}" />
+      <Definition ID="5" DocID="6" />
+      <ChildInstances>
+        <ObjectRef ID="2486" />
+      </ChildInstances>
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="SmartComponent" />
+      <ClipPlane ID="-1" />
+      <Properties>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Start" />
+          <Type Value="ABB.Robotics.Math.Vector3" />
+          <Attributes Value="Quantity=Length|Reference=Local|AutoApply=True" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="End" />
+          <Type Value="ABB.Robotics.Math.Vector3" />
+          <Attributes Value="Quantity=Length|Reference=Local|AutoApply=True" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Length" />
+          <Type Value="System.Double" />
+          <Attributes Value="Quantity=Length|MinValue=0|AutoApply=True|NoDefaultInitialization=True|CustomValidation=True" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Radius" />
+          <Type Value="System.Double" />
+          <Attributes Value="Quantity=Length|MinValue=0|MaxValue=0.1|Slider=True|AutoApply=True" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Tag" />
+          <Type Value="ABB.Robotics.RobotStudio.Stations.ProjectObjectTag" />
+          <Attributes Value="AutoApply=True" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="true" UIVisible="true">
+          <Id Value="SensedPart" />
+          <Type Value="ABB.Robotics.RobotStudio.Stations.Part" />
+          <Attributes Value="" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="true" UIVisible="true">
+          <Id Value="SensedPoint" />
+          <Type Value="ABB.Robotics.Math.Vector3" />
+          <Attributes Value="Quantity=Length" />
+        </Element>
+      </Properties>
+      <SignalDefinitions>
+        <Element type="TIOSignalDef" SignalType="0" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="Active" />
+        </Element>
+        <Element type="TIOSignalDef" SignalType="1" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="SensorOut" />
+        </Element>
+      </SignalDefinitions>
+      <SignalValues>
+        <Element Key="Active">
+          <Value>
+            <Integer Value="1" />
+          </Value>
+        </Element>
+        <Element Key="SensorOut">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+      </SignalValues>
+      <RoleObject ID="-1" />
+    </SmartComponentInstance>
+    <ComponentInstance ID="2486" Name="_sensorPart_" Parent="2485" UIVisible="false" PickingEnabled="false" Detectable="false" PhysicsMotionControl="0">
+      <Definition ID="2487" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <PartDef ID="2487" Name="" Parent="1183">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="39e6a3ca0af34b3fbd1386d52da97c04" StreamChangeRef="006afc6053ef4b389cda571284db03a9" />
+      <BoundingBox>
+        <Min X="-0.00999600028991699" Y="0.535205017089844" Z="0.618635009765625" />
+        <Max X="-0.00999600028991699" Y="0.535205017089844" Z="0.81" />
+      </BoundingBox>
+    </PartDef>
   </Objects>
   <ReferencedDocuments>
-    <DocRef ID="1" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.IRB920%\IRB920T_6_55_30_R_02.rslib" RelativeLocation="C:\Program Files (x86)\ABB\RobotStudio 2023\Packages\ABB.RobotStudio.Models.IRB920-1.4\RobotStudio\LibraryComponents\IRB920T_6_55_30_R_02.rslib" GUID="{3597959D-D533-4F45-8C3A-43C8A5633D56}" />
-    <DocRef ID="2" DocumentType="ComponentLibrary" Location="%ABBLIBRARY%\MyLib\1217c23c-7d3e-48fb-b7d3-d1b2005a3c2bMi_Ventosa.rslib" RelativeLocation="C:\Program Files (x86)\ABB\RobotStudio 2023\ABB Library\MyLib\1217c23c-7d3e-48fb-b7d3-d1b2005a3c2bMi_Ventosa.rslib" GUID="{9AAE4213-1C02-4F19-B9A0-4D3BF7A0F2CE}" />
-    <DocRef ID="3" DocumentType="ComponentLibrary" Location="%ABBLIBRARY%\Components\Attacher.rslib" RelativeLocation="C:\Program Files (x86)\ABB\RobotStudio 2023\ABB Library\Components\Attacher.rslib" GUID="{5EB1A378-C8EE-4275-B5ED-572A5A08C6E5}" />
-    <DocRef ID="4" DocumentType="ComponentLibrary" Location="%ABBLIBRARY%\Components\Detacher.rslib" RelativeLocation="C:\Program Files (x86)\ABB\RobotStudio 2023\ABB Library\Components\Detacher.rslib" GUID="{DE445536-5F6E-479E-8238-896C04DEAF42}" />
-    <DocRef ID="5" DocumentType="ComponentLibrary" Location="%ABBLIBRARY%\Components\LogicGate.rslib" RelativeLocation="C:\Program Files (x86)\ABB\RobotStudio 2023\ABB Library\Components\LogicGate.rslib" GUID="{1421AB33-9F45-49AE-A995-F20D059581EF}" />
-    <DocRef ID="6" DocumentType="ComponentLibrary" Location="%ABBLIBRARY%\Components\LineSensor.rslib" RelativeLocation="C:\Program Files (x86)\ABB\RobotStudio 2023\ABB Library\Components\LineSensor.rslib" GUID="{7DC22A2D-18E4-45E6-95B3-87F458B51DC4}" />
-    <DocRef ID="7" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.Conveyors%\Conveyor Guide 400.rslib" RelativeLocation="C:\Program Files (x86)\ABB\RobotStudio 2023\Packages\ABB.RobotStudio.Models.Conveyors-1.1\RobotStudio\LibraryComponents\Conveyor Guide 400.rslib" GUID="{AB149017-136E-495F-BC8F-42B2E91CB325}" />
+    <DocRef ID="1" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.IRB920%\IRB920T_6_55_30_R_02.rslib" RelativeLocation="..\..\..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2023\Packages\ABB.RobotStudio.Models.IRB920-1.4\RobotStudio\LibraryComponents\IRB920T_6_55_30_R_02.rslib" GUID="{3597959D-D533-4F45-8C3A-43C8A5633D56}" />
+    <DocRef ID="2" DocumentType="ComponentLibrary" Location="%ABBLIBRARY%\Components\1217c23c-7d3e-48fb-b7d3-d1b2005a3c2bMi_Ventosa.rslib" RelativeLocation="..\..\..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2023\ABB Library\Components\1217c23c-7d3e-48fb-b7d3-d1b2005a3c2bMi_Ventosa.rslib" GUID="{9AAE4213-1C02-4F19-B9A0-4D3BF7A0F2CE}" />
+    <DocRef ID="3" DocumentType="ComponentLibrary" Location="%ABBLIBRARY%\Components\Attacher.rslib" RelativeLocation="..\..\..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2023\ABB Library\Components\Attacher.rslib" GUID="{5EB1A378-C8EE-4275-B5ED-572A5A08C6E5}" />
+    <DocRef ID="4" DocumentType="ComponentLibrary" Location="%ABBLIBRARY%\Components\Detacher.rslib" RelativeLocation="..\..\..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2023\ABB Library\Components\Detacher.rslib" GUID="{DE445536-5F6E-479E-8238-896C04DEAF42}" />
+    <DocRef ID="5" DocumentType="ComponentLibrary" Location="%ABBLIBRARY%\Components\LogicGate.rslib" RelativeLocation="..\..\..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2023\ABB Library\Components\LogicGate.rslib" GUID="{1421AB33-9F45-49AE-A995-F20D059581EF}" />
+    <DocRef ID="6" DocumentType="ComponentLibrary" Location="%ABBLIBRARY%\Components\LineSensor.rslib" RelativeLocation="..\..\..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2023\ABB Library\Components\LineSensor.rslib" GUID="{7DC22A2D-18E4-45E6-95B3-87F458B51DC4}" />
+    <DocRef ID="7" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.Conveyors%\Conveyor Guide 400.rslib" RelativeLocation="..\..\..\..\..\..\..\..\Program Files (x86)\ABB\RobotStudio 2023\Packages\ABB.RobotStudio.Models.Conveyors-1.1\RobotStudio\LibraryComponents\Conveyor Guide 400.rslib" GUID="{AB149017-136E-495F-BC8F-42B2E91CB325}" />
   </ReferencedDocuments>
 </PIMDocument>
